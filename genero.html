@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Livros</title>
+    <link rel="stylesheet" href="genero.css">
+</head>
+<body>
+    <header> 
+           <a href="pesquisa.html">Pesquisar</a>
+    </header>
+    <h1>Busca de Livros</h1>
+    <div class="invisivel">
+        <label for="searchInput"></label>
+        <input id="searchInput">
+    </div>  
+    <div>
+        <label for="genre">Gênero:</label>
+        <select id="genre">
+            <option value="">Selecione um Gênero</option>
+            <option value="fiction">Ficção</option>
+            <option value="nonfiction">Não Ficção</option>
+            <option value="fantasy">Fantasia</option>
+            <option value="mystery">Mistério</option>
+            <option value="science">Ciência</option>
+            <option value="history">História</option>
+            <option value="biography">Biografia</option>
+            <option value="poetry">Poesia</option>
+            <option value="romance">Romance</option>
+            <option value="self help">Autoajuda</option>
+            <option value="health">Saúde</option>
+            <option value="travel">Viagem</option>
+            <option value="cookbooks">Culinária</option>
+            <option value="art">Arte</option>
+            <option value="comics">Quadrinhos</option>
+            <option value="religion">Religião</option>
+            <option value="education">Educação</option>
+            <option value="technology">Tecnologia</option>
+            <option value="politics">Política</option>
+            <option value="thriller">Suspense</option>
+            <option value="true crime">Crime Real</option>
+            <option value="science fiction">Ficção Científica</option>
+            <option value="sports">Esportes</option>
+            <option value="music">Música</option>
+            <!-- Adicione outros gêneros aqui conforme a necessidade -->
+        </select>
+        <button onclick="searchBooks()">Buscar</button>
+    </div>
+    <div id="results"></div>
+
+    <script src="genero.js"></script>
+</body>
+</html>

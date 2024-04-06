@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin: 20px;
+}
+
+.book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.book h2 {
+    margin: 0;
+}
+#bestSellers {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    padding: auto;
+    display: inline;
+}
